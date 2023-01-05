@@ -8,4 +8,6 @@ El objetivo de este trabajo es realizar la incorporación de variables espacio-c
 
 En este proyecto se trabaja con regresiones, matrices de contigüidad, tests y diagramas de Moran, tests LM y modelos de efectos espaciales. Para la realización del mismo se utilizó GeoDa, QGIS y Stata.
 
-## Trabajo práctico 2:
+## Trabajo práctico 2: Identificando "mystery process"
+
+Este trabajo práctico propone determinar la especificación más adecuada para los datos del archivo "mystery_process.csv", utilizando las estrategias de especificación *de lo particular a lo general* (basándose en tests LM) y *de lo general a lo particular*. El modelo final encontrado es un SDEM (Modelo de Error Espacial de Durbin), con estructuras espaciales tanto en las variables regresoras, como en el término del error. El repositorio contiene el informe y el script de R utilizado para los diferentes tests, para ambas estrategias de especificación. 
